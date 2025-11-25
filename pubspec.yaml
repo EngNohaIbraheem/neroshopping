@@ -1,0 +1,47 @@
+name: neroshopping
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.3.4
+
+dependencies:
+  cached_network_image:
+  carousel_slider_plus:
+  flutter:
+    sdk: flutter
+  flutter_screenutil:
+  flutter_slidable:
+  auto_size_text:
+  colornames:
+  flutter_svg:
+  flutter_native_splash:
+  readmore:
+  smooth_page_indicator:
+  flutter_bloc: ^9.1.1
+  dio: ^5.8.0+1
+  shared_preferences: ^2.5.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints:
+
+flutter:
+  generate: true
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/svg_images/
+
+
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-.ttf
+
+
+
